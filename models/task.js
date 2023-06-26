@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
 
+//This is the schema for all tasks in the database.
 const TaskSchema = new Schema({
     name:{
         type:String,
