@@ -1,0 +1,20 @@
+{
+  "name": "taskmanagerapi",
+  "version": "1.0.0",
+  "description": "Express/Node Task Manager API that uses Mongo Atlas and Mongose ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Sam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
