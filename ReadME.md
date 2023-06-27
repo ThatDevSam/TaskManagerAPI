@@ -6,7 +6,7 @@ This is an API built with Expressjs, Nodejs, and Mongoose that supports CRUD ope
 touch .env
 ```
 
-### Add your API key to the .env file as a string. 
+### Add your connection string to the .env file. 
 ```
 MONGO_URI='<Your connection string goes here>'
 ```
