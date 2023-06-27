@@ -1,4 +1,4 @@
-//Generic wrapper function to provide a try/catch to all async middleware.
+//Generic wrapper function to provide a try/catch to all async functions.
 const asyncWrapper = (fn) => {
     return async (req, res, next) => {
         try {
